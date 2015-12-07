@@ -1,17 +1,22 @@
-/*#navbar {
-  background-color: #b2b2b2;
-  border-radius: 20px;
-  text-align: center;
-  font-family: sans-serif;
-  opacity: .8;
-  color: #808080;
-  margin: 0, auto;
-}*/
+body {
+  background-image: url('/img/map.jpg');
+  background-repeat: no-repeat;
+}
 
-#bg {
-  position: relative;
-  width: 100%;
+#wrapper {
   height: 100%;
+  width: 100%;
+  position: relative;
+}
+
+/* ANIMAL DIV
+==============
+*/
+
+#animals {
+  position: absolute;
+  top: 0;
+  left: 0;
 }
 
 .animal {
@@ -20,7 +25,8 @@
   opacity: .7;
 }
 
-#wrapper > .animal:hover {
+
+#animals > .animal:hover {
   max-height: 150px;
   max-width: 300px;
   opacity: 1;
